@@ -1,0 +1,193 @@
+.header {
+    height: 60px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(211, 208, 208);
+    z-index: 1;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.middle-section {
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 700px;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    flex-shrink: 0;
+}
+
+ /* Search Bar */
+ .search-bar {
+    border: 1px solid;
+    font-size: 16px;
+    padding-left: 10px;
+    height: 39px;
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgb(211, 208, 208);
+    width: 0;
+}
+
+ /* Icons */
+.youtube-logo {
+    height: 90px;
+}
+
+.youtube-logo:hover {
+    cursor: pointer;
+}
+
+.search-icon {
+    height: 20px;
+}
+
+ /* Buttons */
+.search-button {
+    height: 39px;
+    padding-left: 20px;
+    padding-right: 23px;
+    border: 1px solid;
+    margin-right: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: rgb(211, 208, 208);
+}
+
+.search-button:hover {
+    cursor: pointer;
+    background-color: rgb(235, 230, 230);
+}
+
+.mike-icon {
+    height: 20px
+ }
+
+.mike-button {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(243, 241, 241);
+    border: solid white;
+}
+
+.mike-button:hover {
+    background-color: rgb(216, 213, 213);
+    cursor: pointer;
+}
+
+.mike-button:active {
+    opacity: 0.6;
+}
+
+.hamburger-logo {
+    height: 20px;
+}
+
+.hamburger-button {
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    border: 0px white;
+    border-radius: 50%;
+    margin-left: 11px;
+    margin-right: 10px;
+}
+
+.hamburger-button:hover {
+    cursor: pointer;
+    background-color: rgb(216, 213, 213);
+}
+
+.hamburger-button:active {
+    opacity: 0.6;
+}
+
+.create-button-icon {
+    height: 22px;
+}
+
+.create-button {
+    height: 40px;
+    width: 40px;
+    border: 0px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.create-button:hover {
+    cursor: pointer;
+    background-color: rgb(216, 213, 213);
+}
+
+.create-button:active {
+    opacity: 0.6;
+}
+
+.ringbell-icon {
+    height: 22px;
+}
+
+.ringbell-button {
+    height: 40px;
+    width: 40px;
+    border: 0px;
+    background-color: white;
+    border-radius: 50%;
+
+    position: relative;
+}
+
+.ringbell-button:hover {
+    cursor: pointer;
+    background-color: rgb(216, 213, 213);
+}
+
+.ringbell-button:active {
+    opacity: 0.6;
+}
+
+.notification-number {
+    position: absolute;
+    background-color: rgb(204, 0, 0);
+    color: white;
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 100%;
+
+    top: 2px;
+    right: 0;
+}
+
+.my-profile-picture {
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.my-profile-picture:hover {
+    cursor: pointer;
+}

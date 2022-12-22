@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YouTube</title>
+
+    <!-- CCS -->
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/shorts.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <!-- Hamburger Button, YouTube Logo -->
+        <div class="left-section">
+            <button class="hamburger-button" onclick="changeBacgroud('Red')">
+                <img class="hamburger-logo" src="header-pictures/side-menu-icon.jpg">
+            </button>
+            <img class="youtube-logo" src="header-pictures/YouTube-Logo.png">
+        </div>
+
+        <div class="middle-section">
+            <!-- Search Bar, Search Icon, Mike-To-Search Button -->
+            <input class="search-bar" type="search" placeholder="Search">
+
+            <button class="search-button">
+                <img class="search-icon" src="header-pictures/search-icon-removebg-preview.png">
+            </button>
+
+            <button class="mike-button">
+                <img class="mike-icon" src="header-pictures/mike-icon-removebg.png">
+            </button>
+        </div>
+
+        <divc class="right-section">
+            <!-- Create Button, Ringbell Button, Profile Picture -->
+            <button class="create-button">
+                <img class="create-button-icon" src="header-pictures/create-button-icon.webp">
+            </button>
+
+            <button class="ringbell-button">
+                <span class="notification-number">9+</span>
+                <img class="ringbell-icon" src="header-pictures/ringbell-icon-removebg-preview.png">
+            </button>
+
+            <img class="my-profile-picture" src="header-pictures/my-profile-picture.jpg">
+
+    </div>
+    </div>
+
+    <div class="sidebar">
+
+        <!-- Sidebar Buttons -->
+        <button class="sidebar-button">
+            <img class="sidebar-icon" src="sidebar-pictures/home-removebg2.png">
+            <p class="icon-description">Home</p>
+        </button>
+
+        <button class="sidebar-button">
+            <img class="sidebar-icon" src="sidebar-pictures/shorts-removebg3.png">
+            <p class="icon-description">Shorts</p>
+        </button>
+
+        <button class="sidebar-button">
+            <img class="sidebar-icon" src="sidebar-pictures/subscriptions-icon3.png">
+            <p class="icon-description">Subscribtions</p>
+        </button>
+
+        <button class="sidebar-button">
+            <img class="sidebar-icon" src="sidebar-pictures/library-removebg3.png">
+            <p class="icon-description">Library</p>
+        </button>
+    </div>
+
+    <!-- Video Grid -->
+    <div class="all-videos-grid">
+
+        <!-- Video Block -->
+        <div class="video-preview">
+
+            <div class="tumbnail-row">
+                <span class="video-time">21:48</span>
+                <img class="tumbnail" src="images/hq720.webp">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="profile-picture">
+                    <img class="logo" src="profile-picture/unnamed.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        При ТоТо - FYRE: КАЗАХ НА МАЙКА МИ, ЧЕ СТАВАМ ДИЛЪР
+                    </p>
+
+                    <p class="video-author">
+                        ToTo Yotov
+                    </p>
+
+                    <p class="video-stats">
+                        32K viwes · 7 hours ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Block -->
+        <div class="video-preview">
+
+            <div class="tumbnail-row">
+                <span class="video-time">32:08</span>
+                <img class="tumbnail" src="images/Jarno.webp">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="profile-picture">
+                    <img class="logo" src="profile-picture/unnamed1.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        I CAN'T STOP ROLLING - WRC Generations Career Mode Part 5
+                    </p>
+
+                    <p class="video-author">
+                        Jarno Opmeer
+                    </p>
+
+                    <p class="video-stats">
+                        4,416 views 13 Dec 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Block -->
+        <div class="video-preview">
+
+            <div class="tumbnail-row">
+                <span class="video-time">1:34</span>
+                <img class="tumbnail" src="images/hq720(2).webp">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="profile-picture">
+                    <img class="logo" src="profile-picture/unnamed1.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        COSTING HIM THE TITLE 💔 Thomas Ronhaar HEARTBREAKING collision with Jake Benham at Abu Dhabi I
+                        F1 22
+                    </p>
+
+                    <p class="video-author">
+                        World Online Racing
+                    </p>
+
+                    <p class="video-stats">
+                        40,247 views 13 Dec 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Block -->
+        <div class="video-preview">
+
+            <div class="tumbnail-row">
+                <span class="video-time">6:02</span>
+                <img class="tumbnail" src="images/hq720 (1).webp">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="profile-picture">
+                    <img class="logo" src="profile-picture/channels4_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Sebastian Vettel's Funniest Moments!
+                    </p>
+
+                    <p class="video-author">
+                        FORMULA 1
+                    </p>
+
+                    <p class="video-stats">
+                        254,222 views 10 Dec 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Block -->
+        <div class="video-preview">
+
+            <div class="tumbnail-row">
+                <span class="video-time">16:17</span>
+                <img class="tumbnail" src="images/Gotham.webp">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="profile-picture">
+                    <img class="logo" src="profile-picture/unnamed2.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Chess Pro Answers Questions From Twitter (ft. GothamChess) | Tech Support | WIRED
+                    </p>
+
+                    <p class="video-author">
+                        WIRED
+                    </p>
+
+                    <p class="video-stats">
+                        802,336 views 13 Dec 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Block -->
+        <div class="video-preview">
+
+            <div class="tumbnail-row">
+                <span class="video-time">10:24</span>
+                <img class="tumbnail" src="images/Shroud.webp">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="profile-picture">
+                    <img class="logo" src="profile-picture/unnamed3.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        I'M ADDICTED TO A NEW GAME
+                    </p>
+
+                    <p class="video-author">
+                        Shroud
+                    </p>
+
+                    <p class="video-stats">
+                        120,706 views 13 Dec 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Block -->
+        <div class="video-preview">
+
+            <div class="tumbnail-row">
+                <span class="video-time">10:48</span>
+                <img class="tumbnail" src="images/hq720(5).webp">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="profile-picture">
+                    <img class="logo" src="profile-picture/channel.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        What’s ACTUALLY happening with Twitter.
+                    </p>
+
+                    <p class="video-author">
+                        Mrwhosetheboss
+                    </p>
+
+                    <p class="video-stats">
+                        233,101 views 15 Dec 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Block -->
+        <div class="video-preview">
+
+            <div class="tumbnail-row">
+                <span class="video-time">9:52</span>
+                <img class="tumbnail" src="images/hq720(6).webp">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="profile-picture">
+                    <img class="logo" src="profile-picture/channels5_profile.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        CODE WITH ME | Build in Python a YouTube Downloader
+                    </p>
+
+                    <p class="video-author">
+                        Tiff In Tech
+                    </p>
+
+                    <p class="video-stats">
+                        43,553 views 29 Nov 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="line"></div>
+    
+    <div class="shorts-top">
+        <img class="shorts-icon" src="shorts-pictures/Youtube_shorts_icon.svg.png">
+        <div class="shorts-name">Shorts</div>
+
+        <button class="X-button">
+            <img class="X-icon" src="shorts-pictures/X.png">
+        </button>
+    </div>
+
+    <!-- Shorts Grid -->
+    <div class="shorts-grid">
+
+        <!-- Short Preview -->
+        <div class="shorts-preview">
+
+            <div class="short-tumbnal-row">
+                <img class="short-tumbnal" src="shorts-pictures/hq720_2.webp">
+            </div>
+
+            <div class="short-info-grid">
+                <p class="short-title">
+                    Gal Gadot Blocked Marques Brownlee⁉️ - Joe Rogan Experience
+                </p>
+
+                <p class="video-stats">
+                    2.3M views
+                </p>
+            </div>
+        </div>
+
+        <!-- Short Preview -->
+        <div class="shorts-preview">
+
+            <div class="short-tumbnal-row">
+                <img class="short-tumbnal" src="shorts-pictures/hq720_2 (4).webp">
+            </div>
+
+            <div class="short-info-grid">
+                <p class="short-title">
+                    Only Click This If You're Elon Musk
+                </p>
+
+                <p class="video-stats">
+                    16M views
+                </p>
+            </div>
+        </div>
+
+        <!-- Short Preview -->
+        <div class="shorts-preview">
+
+            <div class="short-tumbnal-row">
+                <img class="short-tumbnal" src="shorts-pictures/hq720_2 (1).webp">
+            </div>
+
+            <div class="short-info-grid">
+                <p class="short-title">
+                    CEO of Lamborghini Let Me Rev His Car!
+                </p>
+
+                <p class="video-stats">
+                    7.5M views
+                </p>
+            </div>
+        </div>
+
+        <!-- Short Preview -->
+        <div class="shorts-preview">
+
+            <div class="short-tumbnal-row">
+                <img class="short-tumbnal" src="shorts-pictures/hq720_2 (2).webp">
+            </div>
+
+            <div class="short-info-grid">
+                <p class="short-title">
+                    xqc joker arc
+                </p>
+
+                <p class="video-stats">
+                    12 views
+                </p>
+            </div>
+        </div>
+
+        <!-- Short Preview -->
+        <div class="shorts-preview">
+
+            <div class="short-tumbnal-row">
+                <img class="short-tumbnal" src="shorts-pictures/hq720_2 (3).webp">
+            </div>
+
+            <div class="short-info-grid">
+                <p class="short-title">
+                    Zlatan's bicycle kick 🥵
+                </p>
+
+                <p class="video-stats">
+                    5.5M views
+                </p>
+            </div>
+        </div>
+
+        <!-- Short Preview -->
+        <div class="shorts-preview">
+
+            <div class="short-tumbnal-row">
+                <img class="short-tumbnal" src="shorts-pictures/hq720_2 (5).webp">
+            </div>
+
+            <div class="short-info-grid">
+                <p class="short-title">
+                    Day 1 in the New Sentinels Office
+                </p>
+
+                <p class="video-stats">
+                    109K views
+                </p>
+            </div>
+        </div>
+
+        <!-- Short Preview -->
+        <div class="shorts-preview">
+
+            <div class="short-tumbnal-row">
+                <img class="short-tumbnal" src="shorts-pictures/hq720_2 (6).webp">
+            </div>
+
+            <div class="short-info-grid">
+                <p class="short-title">
+                    The Boys (VALORANT Edition)
+                </p>
+
+                <p class="video-stats">
+                    1.3M views
+                </p>
+            </div>
+        </div>
+
+        <!-- Short Preview -->
+        <div class="shorts-preview">
+
+            <div class="short-tumbnal-row">
+                <img class="short-tumbnal" src="shorts-pictures/hq720_2 (7).webp">
+            </div>
+
+            <div class="short-info-grid">
+                <p class="short-title">
+                    Kevin De Bruyne did not enjoy that 😂
+                </p>
+
+                <p class="video-stats">
+                    17M views
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <button class="arrow-button">
+        <img class="down-arrow" src="shorts-pictures/down-arrow-removebg-preview.png">
+    </button>
+
+    <div class="line"></div>
+</body>
+
+</html>

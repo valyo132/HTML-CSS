@@ -1,0 +1,124 @@
+.shorts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 20px;
+}
+
+@media (max-width:720px) {
+    .shorts-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 960px) {
+    .shorts-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1140px) {
+    .shorts-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1141px) and (max-width: 1300px) {
+    .shorts-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1301px) and (max-width: 1470px) {
+    .shorts-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+.shorts-top {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    height: 40px;
+    margin: 24px 0px 24px 8px;
+}
+
+.shorts-name {
+    font-family: Roboto, Arial;
+    font-size: 22px;
+}
+
+.shorts-icon {
+    padding: 2px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.X-icon {
+    height: 17px;
+    padding-top: 3px;
+}
+
+.X-button {
+    position: absolute;
+    right: 5px;
+
+    height: 40px;
+    width: 40px;
+    background-color: rgb(243, 239, 239);
+    border: 0px solid white;
+    border-radius: 50%;
+}
+
+.X-button:hover {
+    cursor: pointer;
+    background-color: rgb(211, 208, 208);
+}
+
+.X-button:active {
+    opacity: 0.6;
+}
+
+.short-tumbnal {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.short-info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.short-title {
+    font-family: Roboto, Arial;
+    font-weight: 550;
+    margin-top: 5px;
+}
+
+.shorts-preview:hover {
+    cursor: pointer;
+}
+
+.down-arrow {
+    position: absolute;
+    width: 25px;
+    left: 52%;
+}
+
+.arrow-button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(243, 239, 239);
+    border: 0px;
+}
+
+.arrow-button:hover {
+    cursor: pointer;
+    background-color: rgb(211, 208, 208);
+}
