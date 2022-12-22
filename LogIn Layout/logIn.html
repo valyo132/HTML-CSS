@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Log In</title>
+
+    <!-- Martian Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;800&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/logIn.css">
+    <link rel="stylesheet" href="styles/general.css">
+
+<body>
+    <div class="arrow-up"></div>
+    <div class="arrow-down"></div>
+
+    <div class="block">
+        <h1 class="login-logo">Login</h1>
+
+        <div class="top-line"></div>
+
+        <form class="login-form">
+            <div class="login-system">
+                <p class="text">Username</p>
+
+                <div class="user-input">
+                    <img class="user-icon" src="images/1946429-removebg-preview.png">
+                    <input class="input-box" type="text" placeholder="Type your Username" required>
+                    <div class="line"></div>
+                </div>
+
+                <span></span>
+
+                <p class="text">Password</p>
+
+                <div class="user-input">
+                    <img class="user-icon" src="images/key.png">
+                    <input class="input-box" type="password" placeholder="Type your Password" required>
+                    <div class="line"></div>
+                </div>
+
+            </div>
+            
+            <button class="login-button">Sing In</button>
+            
+        </form>
+        <button class="forgot-password">Forgot Password</button>
+
+        <button class="register-button" onclick="openRegisterPage()">Sing Up</button>
+    </div>
+
+    <script>
+        function openRegisterPage() {
+            window.location = "register-page.html";
+        }
+    </script>
+</body>
+
+</html>

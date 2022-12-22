@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+
+    <!-- Martian Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;800&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/register.css">
+    <link rel="stylesheet" href="styles/general.css">
+
+<body>
+    <div class="arrow-up"></div>
+    <div class="arrow-down"></div>
+
+    <div class="block">
+        <h1 class="login-logo">Register</h1>
+
+        <div class="top-line"></div>
+
+        <form class="login-form">
+            <div class="login-system">
+                <p class="text">Username</p>
+
+                <div class="user-input">
+                    <img class="user-icon" src="images/1946429-removebg-preview.png">
+                    <input class="input-box" type="text" id="username" placeholder="Type your Username" required>
+                    <div class="line"></div>
+                </div>
+
+                <span></span>
+
+                <p class="text">Password</p>
+
+                <div class="user-input">
+                    <img class="user-icon" src="images/key.png">
+                    <input class="input-box" type="password" id="password" placeholder="Type your Password" required>
+                    <div class="line"></div>
+                </div>
+
+                <span></span>
+
+                <p class="text">Confirm password</p>
+
+                <div class="user-input">
+                    <img class="user-icon" src="images/key.png">
+                    <input class="input-box" type="password" placeholder="Type your Password" required>
+                    <div class="line"></div>
+                </div>
+
+            </div>
+
+            <button class="login-button" onclick="openHomePage()">Sing Up</button>
+        </form>
+    </div>
+
+    <script>
+        function openHomePage() {
+            var usernameValue = document.getElementById("username").value;
+            var passwordValue = document.getElementById("password").value;
+
+            window.location = "home.html";
+        }
+    </script>
+
+</body>
+
+</html>

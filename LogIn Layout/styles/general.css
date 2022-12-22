@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    justify-content: center;
+
+    background-image: linear-gradient(to right, lightblue,
+     rgb(215, 108, 241),
+     rgb(252, 69, 221));
+}
