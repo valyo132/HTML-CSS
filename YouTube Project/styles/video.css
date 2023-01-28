@@ -6,7 +6,13 @@
     margin-bottom: 40px;
 }
 
-@media (max-width: 1114px) {
+@media (max-width: 690px) {
+    .all-videos-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1114px) {
     .all-videos-grid {
         grid-template-columns: 1fr 1fr;
     }
